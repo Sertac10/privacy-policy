@@ -218,7 +218,7 @@
       <div class="logo-badge">♠</div>
       <h1 class="title">SPADES</h1>
       <p class="subtitle">Online Trick-Taking Card Game (Koz Maça)</p>
-      <div class="meta-badge">Package: com.sertac10.spades &bull; Effective Date: August 17, 2026</div>
+      <div class="meta-badge">Package: com.sertac10.spades &bull; Last Updated: October 22, 2026</div>
 
       <div class="lang-switcher">
         <button class="lang-btn active" onclick="switchLang('en')">English</button>
@@ -238,37 +238,47 @@
       </p>
 
       <h2>2. Information We Collect</h2>
-      <p>We only collect information necessary to provide real-time multiplayer gaming, matchmaking, and player progression:</p>
+      <p>We only collect information necessary to provide real-time multiplayer gaming, matchmaking, social features, and player progression:</p>
       <ul>
         <li><strong>Account Information:</strong> When you sign in with Google Sign-In or Apple Sign-In, we receive your basic public profile (display name, email address, profile avatar) to authenticate your account. If you choose to play as a Guest, a random pseudonym and device identifier are used.</li>
-        <li><strong>Gameplay & Statistics:</strong> Match scores, ELO ratings, leaderboard standings, unlocked cosmetics (decks, themes, avatars), tournament victories, and daily streak progress.</li>
-        <li><strong>Device Identifiers & Push Tokens:</strong> Firebase Cloud Messaging (FCM) device tokens are collected solely to deliver push notifications (such as friend match invites or tournament alerts) when you opt-in.</li>
+        <li><strong>Gameplay &amp; Statistics:</strong> Match scores, ELO ratings, virtual coin balances, leaderboard standings, unlocked cosmetics (decks, themes, avatars), tournament victories, and daily streak progress.</li>
+        <li><strong>In-App Chat &amp; User-Generated Content (UGC):</strong> When you participate in the Challenge Salon or table chat rooms, your text messages, custom table notes, and moderation actions (user reports and block lists) are processed to deliver real-time communication and enforce community safety.</li>
+        <li><strong>Device Identifiers &amp; Push Tokens:</strong> Firebase Cloud Messaging (FCM) device tokens are collected solely to deliver push notifications (such as friend match invites or tournament alerts) when you opt-in.</li>
         <li><strong>Camera Permission:</strong> The app may request camera access <em>solely</em> for scanning physical friend QR codes to add friends locally. No camera images, video feeds, or biometric data are stored, processed on servers, or shared with third parties.</li>
       </ul>
 
-      <h2>3. Third-Party Services & Analytics</h2>
+      <h2>3. Third-Party Services &amp; Analytics</h2>
       <p>Our application integrates trusted third-party SDKs to ensure stable real-time gameplay and security:</p>
       <ul>
-        <li><strong>Google Play Services & Firebase Authentication:</strong> For secure user login and token validation.</li>
+        <li><strong>Google Play Services &amp; Firebase Authentication:</strong> For secure user login and token validation.</li>
         <li><strong>Firebase Cloud Messaging (FCM):</strong> For delivering in-game notification alerts.</li>
         <li><strong>Firebase Analytics:</strong> For aggregate, anonymous crash diagnostics, technical stability metrics, and game screen navigation statistics to improve game performance.</li>
       </ul>
       <p>These third-party providers handle data in accordance with their respective privacy policies:</p>
       <div class="info-box">
-        &bull; <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google & Firebase Privacy Policy</a><br>
+        &bull; <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google &amp; Firebase Privacy Policy</a><br>
         &bull; <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener noreferrer">Apple Privacy Policy</a>
       </div>
 
       <h2>4. How We Use Your Information</h2>
       <p>We use the collected information for the following purposes:</p>
       <ul>
-        <li>To provide real-time 4-player Spades multiplayer matchmaking and gameplay.</li>
+        <li>To provide real-time 4-player Spades and Bid Whist multiplayer matchmaking and gameplay.</li>
+        <li>To enable live social interaction, table creation, and chat moderation in the Challenge Salon.</li>
         <li>To calculate leaderboard rankings, tournament brackets, and level progression.</li>
-        <li>To maintain game integrity, fair play, and prevent cheating.</li>
+        <li>To maintain game integrity, fair play, and prevent cheating, harassment, or abuse.</li>
         <li>To deliver relevant in-game notifications and rewards.</li>
       </ul>
 
-      <h2>5. Data Retention & Account Deletion Policy</h2>
+      <h2>5. In-App Chat (UGC), Moderation &amp; Virtual Currency</h2>
+      <p>To ensure a safe and fair environment in compliance with Google Play User-Generated Content (UGC) and Virtual Currency policies:</p>
+      <ul>
+        <li><strong>Chat Processing &amp; Retention:</strong> Messages sent in public or table chat channels are transmitted to other players in the room and temporarily cached (up to 12 hours) to provide recent chat history. If a message is reported for abuse, the reported text and sender Player ID may be retained for up to 90 days for moderation review and account enforcement.</li>
+        <li><strong>Reporting &amp; Blocking:</strong> Players can report offensive messages or block any user directly within the app by tapping on their message or profile. Blocking a user immediately hides their messages and challenge tables. Automated profanity and link filters are also active across all chat channels.</li>
+        <li><strong>Virtual Coins &amp; Challenge Tables:</strong> All in-game Coins used in Challenge Tables and tournaments are purely virtual items with <strong>no real-world monetary value</strong>. Virtual Coins cannot be cashed out, redeemed, exchanged, or transferred for real money, cryptocurrency, or any physical goods/prizes of monetary value.</li>
+      </ul>
+
+      <h2>6. Data Retention &amp; Account Deletion Policy</h2>
       <p>
         We retain your account data for as long as your account remains active. You have the right to delete your account and all associated data at any time:
       </p>
@@ -279,17 +289,17 @@
         3. Alternatively, you may contact us at <a href="mailto:snaimans@gmail.com">snaimans@gmail.com</a> to request manual data erasure.
       </div>
 
-      <h2>6. Children's Privacy (COPPA Compliance)</h2>
+      <h2>7. Children's Privacy &amp; Age Rating</h2>
       <p>
-        Our Game is intended for general audiences and is not directed to children under the age of 13. We do not knowingly collect personal identifiable information from children under 13. If you believe a child has provided us with personal information without parental consent, please contact us and we will promptly remove such information.
+        Our Game is intended for mature/general audiences (16+/18+ where applicable due to online chat and virtual coin wagering in card games) and is not directed to children under the age of 13. We do not knowingly collect personal identifiable information from children under 13. If you believe a child has provided us with personal information without parental consent, please contact us and we will promptly remove such information.
       </p>
 
-      <h2>7. Security</h2>
+      <h2>8. Security</h2>
       <p>
         We employ industry-standard encryption protocols (HTTPS, WSS/TLS for SignalR websockets, and encrypted token storage) to protect your information against unauthorized access, alteration, or destruction.
       </p>
 
-      <h2>8. Contact Us</h2>
+      <h2>9. Contact Us</h2>
       <p>
         If you have any questions, concerns, or requests regarding this Privacy Policy, please feel free to reach out to us:
       </p>
@@ -312,10 +322,11 @@
       </p>
 
       <h2>2. Toplanan Bilgiler</h2>
-      <p>Yalnızca gerçek zamanlı çok oyunculu oyun deneyimi, eşleştirme ve ilerleme takibi için gerekli olan bilgileri topluyoruz:</p>
+      <p>Yalnızca gerçek zamanlı çok oyunculu oyun deneyimi, eşleştirme, sosyal etkileşim ve ilerleme takibi için gerekli olan bilgileri topluyoruz:</p>
       <ul>
         <li><strong>Hesap Bilgileri:</strong> Google Sign-In veya Apple Sign-In ile giriş yaptığınızda, hesabınızı doğrulamak için temel profil bilgileriniz (görünen isim, e-posta adresi, avatar) alınır. Misafir olarak oynarsanız rastgele bir kullanıcı adı ve cihaz kimliği kullanılır.</li>
-        <li><strong>Oyun İçi İstatistikler:</strong> Maç skorları, ELO puanları, liderlik tablosu dereceleri, kilit açılan kozmetikler (desteler, temalar), turnuva kupaları ve günlük giriş serileri.</li>
+        <li><strong>Oyun İçi İstatistikler:</strong> Maç skorları, ELO puanları, sanal coin bakiyeleri, liderlik tablosu dereceleri, kilit açılan kozmetikler (desteler, temalar), turnuva kupaları ve günlük giriş serileri.</li>
+        <li><strong>Uygulama İçi Sohbet ve Kullanıcı İçeriği (UGC):</strong> Meydan Okuma Salonu ve masa içi sohbet odalarında gönderdiğiniz yazılı mesajlar, masa notları ile şikayet/engelleme kayıtları gerçek zamanlı iletişimi sağlamak ve topluluk güvenliğini korumak amacıyla işlenir.</li>
         <li><strong>Cihaz Kimlikleri ve Bildirim Jetonları:</strong> Firebase Cloud Messaging (FCM) cihaz belirteçleri, yalnızca arkadaş daveti veya turnuva uyarıları gibi anlık bildirimleri iletmek için kullanılır.</li>
         <li><strong>Kamera İzni:</strong> Uygulama, <em>yalnızca</em> fiziksel arkadaş QR kodlarını taramak amacıyla kamera erişimi talep eder. Kamera görüntüleri, videolar veya biyometrik veriler sunucularda saklanmaz ve üçüncü taraflarla paylaşılmaz.</li>
       </ul>
@@ -323,7 +334,7 @@
       <h2>3. Üçüncü Taraf Hizmetleri ve Analitik</h2>
       <p>Oyunumuz, güvenli ve kesintisiz bir deneyim sunmak amacıyla aşağıdaki güvenilir SDK'ları kullanır:</p>
       <ul>
-        <li><strong>Google Play Hizmetleri & Firebase Authentication:</strong> Güvenli kullanıcı kimlik doğrulaması için.</li>
+        <li><strong>Google Play Hizmetleri &amp; Firebase Authentication:</strong> Güvenli kullanıcı kimlik doğrulaması için.</li>
         <li><strong>Firebase Cloud Messaging (FCM):</strong> Oyun içi bildirim gönderimleri için.</li>
         <li><strong>Firebase Analytics:</strong> Oyun performansını iyileştirmek, kilitlenmeleri önlemek ve anonim ekran gezinti istatistiklerini izlemek için.</li>
       </ul>
@@ -331,13 +342,22 @@
       <h2>4. Bilgilerin Kullanım Amaçları</h2>
       <p>Toplanan veriler aşağıdaki amaçlar doğrultusunda işlenir:</p>
       <ul>
-        <li>Gerçek zamanlı 4 kişilik Koz Maça eşleştirmesi ve oyun oynanışı sağlamak.</li>
+        <li>Gerçek zamanlı 4 kişilik Koz Maça (Spades) ve Bid Whist eşleştirmesi ve oyun oynanışı sağlamak.</li>
+        <li>Meydan Okuma Salonunda canlı sohbet, masa kurma ve topluluk moderasyonu sunmak.</li>
         <li>Liderlik tablosu sıralamalarını ve turnuva eşleşmelerini yönetmek.</li>
-        <li>Oyun güvenliğini ve adil oyun (fair play) ortamını korumak.</li>
+        <li>Oyun güvenliğini, adil oyun (fair play) ortamını korumak ve taciz/kötüye kullanımı engellemek.</li>
         <li>Ödülleri ve bildirimleri eksiksiz teslim etmek.</li>
       </ul>
 
-      <h2>5. Veri Saklama ve Hesap Silme Politikası</h2>
+      <h2>5. Uygulama İçi Sohbet (UGC), Moderasyon ve Sanal Coinler</h2>
+      <p>Google Play Kullanıcı Tarafından Oluşturulan İçerik (UGC) ve Sanal Para Birimi politikalarına tam uyum kapsamında:</p>
+      <ul>
+        <li><strong>Sohbet Mesajları ve Saklama Süresi:</strong> Genel salonda veya masa içi sohbette gönderilen mesajlar odadaki diğer oyunculara iletilir ve son mesaj geçmişini göstermek amacıyla geçici olarak (en fazla 12 saat) önbellekte tutulur. Kural ihlali nedeniyle bildirilen (şikayet edilen) mesajlar, moderasyon incelemesi ve güvenlik yaptırımları için gönderici oyuncu kimliğiyle birlikte 90 güne kadar saklanabilir.</li>
+        <li><strong>Bildirme (Report) ve Engelleme (Block):</strong> Oyuncular uygunsuz mesajları veya kullanıcıları uygulama içinden doğrudan bildirebilir veya engelleyebilir. Engellenen oyuncunun mesajları ve açtığı masalar anında gizlenir. Ayrıca tüm sohbet kanallarında otomatik küfür ve bağlantı (link) filtresi aktiftir.</li>
+        <li><strong>Sanal Coinler ve Ödüllü Masalar:</strong> Ödüllü Meydan Okuma masalarında ve turnuvalarda kullanılan oyun içi Coinler tamamen sanal öğelerdir ve <strong>gerçek dünyada hiçbir parasal değeri yoktur</strong>. Sanal Coinler gerçek paraya çevrilemez, nakit olarak çekilemez, satılamaz veya maddi değeri olan herhangi bir ödülle takas edilemez.</li>
+      </ul>
+
+      <h2>6. Veri Saklama ve Hesap Silme Politikası</h2>
       <p>
         Verileriniz hesabınız aktif olduğu sürece saklanır. Dilediğiniz zaman hesabınızı ve tüm verilerinizi tamamen silme hakkına sahipsiniz:
       </p>
@@ -348,17 +368,17 @@
         3. Dilerseniz <a href="mailto:snaimans@gmail.com">snaimans@gmail.com</a> adresine e-posta göndererek de verilerinizin silinmesini talep edebilirsiniz.
       </div>
 
-      <h2>6. Çocukların Gizliliği (COPPA)</h2>
+      <h2>7. Çocukların Gizliliği ve Yaş Sınırı (COPPA)</h2>
       <p>
-        Oyunumuz 13 yaşın altındaki çocuklara yönelik olarak tasarlanmamıştır. 13 yaş altındaki bireylerden bilerek kişisel bilgi toplamıyoruz. Bir çocuğun ebeveyn izni olmadan bilgi sağladığını fark ederseniz lütfen bizimle iletişime geçin.
+        Oyunumuz çevrimiçi sohbet ve sanal coin ödüllü kart masaları içerdiğinden genel/yetişkin kitleye (bölgesel derecelendirmeye göre 16+/18+) yöneliktir ve 13 yaşın altındaki çocuklara yönelik olarak tasarlanmamıştır. 13 yaş altındaki bireylerden bilerek kişisel bilgi toplamıyoruz. Bir çocuğun ebeveyn izni olmadan bilgi sağladığını fark ederseniz lütfen bizimle iletişime geçin.
       </p>
 
-      <h2>7. Güvenlik</h2>
+      <h2>8. Güvenlik</h2>
       <p>
         Verilerinizin güvenliğini sağlamak için endüstri standardı şifreleme protokolleri (HTTPS, SignalR WSS/TLS ve güvenli depolama) kullanılmaktadır.
       </p>
 
-      <h2>8. İletişim</h2>
+      <h2>9. İletişim</h2>
       <p>
         Gizlilik politikamızla ilgili tüm soru ve talepleriniz için bize ulaşabilirsiniz:
       </p>
